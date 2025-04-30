@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "@capsulescodes/flint": "^0.1.1",
+    "@stylistic/eslint-plugin-js": "^4.2.0"
+  },
+  "type": "module"
+}
