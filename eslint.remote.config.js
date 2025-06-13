@@ -1,4 +1,4 @@
-import stylistic from '@stylistic/eslint-plugin-js';
+import stylistic from '@stylistic/eslint-plugin';
 
 
 export default [
@@ -8,8 +8,10 @@ export default [
 		},
 		files : [ '**/*.js' ],
 		rules : {
-			'@stylistic/brace-style' : "error",
-			'@stylistic/space-before-blocks' : [ 'error', 'never' ]
+			'@stylistic/brace-style' : 'error',
+			'@stylistic/space-before-blocks' : [ 'error', 'never' ],
+			'@stylistic/space-in-parens' : [ 'error', 'never' ]
+
 		},
 	},
 ];
